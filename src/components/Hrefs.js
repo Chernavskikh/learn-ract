@@ -14,7 +14,7 @@ export default class Hrefs extends Component {
 
     render() {
         const list = this.state.hrefs.map((item, index) => {
-            return <a style={{display: 'block', paddingLeft: '20px'}}key={index} href={item.href}>{item.text}</a>;
+            return <a style={{display: 'block', paddingLeft: '20px'}} key={index} href={item.href}>{item.text}</a>;
         });
         return <div style={{textAlign: 'left'}}>
                 Links:

@@ -14,7 +14,7 @@ export default class Input extends Component {
 
     render() {
         return <div>
-            {this.state.value.toUpperCase()} 
+                {this.state.value.toUpperCase()} 
                 <input value={this.state.value} onChange={this.handleChange.bind(this)} />
             </div>
     }
